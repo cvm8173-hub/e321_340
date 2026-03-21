@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/v-s-a-group-of-institutions-salem-61577",
-  "https://www.shiksha.com/college/sunrise-group-of-institutions-udaipur-66817",
-  "https://www.shiksha.com/college/queen-s-college-of-food-technology-and-research-foundation-aurangabad-66897",
-  "https://www.shiksha.com/college/shri-ram-college-of-information-technology-morena-76129",
-  "https://www.shiksha.com/college/swami-vivekanand-group-of-institutions-indore-88025",
-  "https://www.shiksha.com/college/jspm-college-of-engineering-latur-244014",
-  "https://www.shiksha.com/college/ssj-engineering-college-ssjec-gandipet-hyderabad-24913",
-  "https://www.shiksha.com/college/surya-group-of-institutions-lucknow-37458",
-  "https://www.shiksha.com/college/jayam-college-of-engineering-and-technology-tamil-nadu-other-42784",
-  "https://www.shiksha.com/college/st-soldier-institute-of-engineering-and-technology-jalandhar-43237",
-  "https://www.shiksha.com/college/jld-engineering-and-management-college-jldemc-west-bengal-other-48391",
-  "https://www.shiksha.com/college/baba-farid-college-of-engineering-and-technology-baba-farid-group-of-institutions-bathinda-52953",
-  "https://www.shiksha.com/college/amani-group-of-institutions-amroha-59319",
-  "https://www.shiksha.com/college/prasiddha-college-of-engineering-technology-andhra-pradesh-other-60877",
-  "https://www.shiksha.com/college/pydah-college-of-dairy-and-food-technology-kakinada-61183",
-  "https://www.shiksha.com/college/maa-saraswati-institute-of-engineering-and-technology-rohtak-66313",
-  "https://www.shiksha.com/college/institute-of-technology-korba-66731",
-  "https://www.shiksha.com/college/shri-yogindra-sagar-group-of-institutes-ratlam-67613",
-  "https://www.shiksha.com/college/shri-rama-krishna-group-of-institutions-satna-76123",
-  "https://www.shiksha.com/college/yadavrao-tasgaonkar-institute-of-engineering-technology-raigad-189901",
+  "https://www.shiksha.com/college/srikrupa-institute-of-pharmaceutical-sciences-telangana-other-70247",
+  "https://www.shiksha.com/college/sai-polytechnic-college-amritsar-100425",
+  "https://www.shiksha.com/college/rangadore-memorial-hospital-bangalore-106139",
+  "https://www.shiksha.com/college/vyakaran-postgraduate-college-darbhanga-115971",
+  "https://www.shiksha.com/college/radha-govind-college-of-education-moradabad-143703",
+  "https://www.shiksha.com/college/sardar-vallabh-bhai-patel-college-of-pharmacy-bareilly-148619",
+  "https://www.shiksha.com/college/vageshwari-shikshan-sansthan-pharmacy-college-uttar-pradesh-other-148705",
+  "https://www.shiksha.com/college/vidya-sagar-paramedical-institute-sangrur-154883",
+  "https://www.shiksha.com/college/prasanna-college-of-pharmacy-karnataka-other-207845",
+  "https://www.shiksha.com/college/aryan-college-of-pharmacy-gulbarga-207901",
+  "https://www.shiksha.com/college/beena-institute-of-pharmaceutical-sciences-jaipur-208179",
+  "https://www.shiksha.com/college/arunai-college-of-pharmacy-tiruvannamalai-208223",
+  "https://www.shiksha.com/college/drona-foundation-noble-university-junagadh-212051",
+  "https://www.shiksha.com/college/sadar-hospital-motihari-214093",
+  "https://www.shiksha.com/college/government-medical-college-jogulamba-telangana-other-231156",
+  "https://www.shiksha.com/college/xavier-pharmacy-college-puri-231686",
+  "https://www.shiksha.com/college/aryavart-educational-academy-gujarat-other-236438",
+  "https://www.shiksha.com/college/brahm-kamal-college-of-management-and-technology-hoshiarpur-236594",
+  "https://www.shiksha.com/college/pv-belhekar-college-of-pharmacy-ahmednagar-236732",
+  "https://www.shiksha.com/college/escent-institute-of-paramedical-sciences-and-skill-development-manipur-other-236816",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2041
+    c_count = 3761
 
     try:
         for base_url in BASE_URL:
