@@ -15,26 +15,14 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/dr-vimal-kumar-dwivedi-institute-of-pharmacy-uttar-pradesh-other-181193",
-  "https://www.shiksha.com/college/f-s-institute-of-pharmacy-uttar-pradesh-other-181207",
-  "https://www.shiksha.com/college/gopinath-pharmacy-college-ghazipur-181217",
-  "https://www.shiksha.com/college/reshami-sonanchal-college-of-pharmacy-uttar-pradesh-other-181373",
-  "https://www.shiksha.com/college/maa-gayatri-institute-of-pharmacy-aligarh-181585",
-  "https://www.shiksha.com/college/sk-mishra-college-of-pharmacy-azamgarh-181655",
-  "https://www.shiksha.com/college/vimala-college-of-pharmacy-uttar-pradesh-other-181733",
-  "https://www.shiksha.com/college/vimla-family-pharmacy-college-kanpur-181871",
-  "https://www.shiksha.com/college/margadarshan-college-of-pharmacy-karnataka-other-207805",
-  "https://www.shiksha.com/college/prakruthi-college-of-pharmacy-tumkur-207843",
-  "https://www.shiksha.com/college/sarvodaya-college-of-pharmacy-raichur-207891",
-  "https://www.shiksha.com/college/sges-s-smt-lalita-n-magadum-college-of-pharmacy-belgaum-207899",
-  "https://www.shiksha.com/college/kay-jay-college-of-pharmacy-and-technology-patiala-208165",
-  "https://www.shiksha.com/college/faculty-of-pharmacy-j-s-university-uttar-pradesh-other-208303",
-  "https://www.shiksha.com/college/maa-vaishnodevi-college-of-pharmacy-balasore-208711",
-  "https://www.shiksha.com/college/s-salins-college-of-optometry-bidar-210467",
-  "https://www.shiksha.com/university/amity-university-greater-noida-213063",
-  "https://www.shiksha.com/university/des-pune-university-213485",
-  "https://www.shiksha.com/college/international-management-consultancy-noida-215365",
-  "https://www.shiksha.com/college/senfine-academy-m-g-road-bangalore-225097",
+  "https://www.shiksha.com/college/birendra-kumar-das-institute-of-education-pharmaceutical-science-howrah-237248",
+  "https://www.shiksha.com/college/kabiguru-college-of-pharmacy-west-bengal-other-237286",
+  "https://www.shiksha.com/college/mayurakhi-college-of-pharmacy-west-bengal-other-237308",
+  "https://www.shiksha.com/college/uttar-dinajpur-h-m-pharmacy-college-west-bengal-other-237360",
+  "https://www.shiksha.com/college/viswa-kobi-college-of-pharmaceutical-science-west-bengal-other-237364",
+  "https://www.shiksha.com/college/dr-apj-abdul-kalam-college-of-pharmacy-jharkhand-other-237400",
+  "https://www.shiksha.com/college/bhagwan-mahavir-institute-of-medical-sciences-nalanda-240260",
+  "https://www.shiksha.com/college/regency-hospital-cancer-and-gastro-care-centre-tower-2-kanpur-240560"
 ]
 
 
@@ -9243,7 +9231,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 4121
+    c_count = 4481
 
     try:
         for base_url in BASE_URL:
