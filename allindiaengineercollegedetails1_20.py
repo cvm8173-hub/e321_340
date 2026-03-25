@@ -15,14 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/birendra-kumar-das-institute-of-education-pharmaceutical-science-howrah-237248",
-  "https://www.shiksha.com/college/kabiguru-college-of-pharmacy-west-bengal-other-237286",
-  "https://www.shiksha.com/college/mayurakhi-college-of-pharmacy-west-bengal-other-237308",
-  "https://www.shiksha.com/college/uttar-dinajpur-h-m-pharmacy-college-west-bengal-other-237360",
-  "https://www.shiksha.com/college/viswa-kobi-college-of-pharmaceutical-science-west-bengal-other-237364",
-  "https://www.shiksha.com/college/dr-apj-abdul-kalam-college-of-pharmacy-jharkhand-other-237400",
-  "https://www.shiksha.com/college/bhagwan-mahavir-institute-of-medical-sciences-nalanda-240260",
-  "https://www.shiksha.com/college/regency-hospital-cancer-and-gastro-care-centre-tower-2-kanpur-240560"
+  "https://www.shiksha.com/college/zydus-hospital-ahmedabad-240916",
+  "https://www.shiksha.com/college/ymt-college-of-physiotherapy-navi-mumbai-245530",
+  "https://www.shiksha.com/college/nkbr-college-of-pharmacy-and-research-center-meerut-60021",
+  "https://www.shiksha.com/college/suryadatta-college-of-hospitality-management-and-travel-tourism-bavdhan-pune-28423",
+  "https://www.shiksha.com/college/maya-college-of-pharmacy-hathras-65399",
+  "https://www.shiksha.com/college/asha-pharmacy-college-varanasi-65595",
+  "https://www.shiksha.com/college/avantika-education-trust-b-pharmacy-college-navalgadh-surendranagar-88235",
+  "https://www.shiksha.com/college/j-m-b-institute-of-life-sciences-and-higher-education-pilibhit-110967",
+  "https://www.shiksha.com/college/rk-institute-of-allied-health-sciences-ballari-186705",
+  "https://www.shiksha.com/college/kavery-medical-centre-and-hospital-tiruchirappalli-202207",
+  "https://www.shiksha.com/college/r-s-memorial-college-of-pharmacy-panipat-207569",
+  "https://www.shiksha.com/college/vaishalitai-jondhale-college-of-pharmacy-maharashtra-other-236810",
+  "https://www.shiksha.com/college/dishari-institute-of-pharmacy-malda-237260",
+  "https://www.shiksha.com/college/bahra-faculty-of-engineering-patiala-campus-47383",
+  "https://www.shiksha.com/college/pondicherry-university-community-college-mahe-centre-campus-55067",
+  "https://www.shiksha.com/college/browns-college-of-pharmacy-khammam-70199",
+  "https://www.shiksha.com/college/sri-krishna-chaithanya-college-of-pharmacy-chittoor-87849",
+  "https://www.shiksha.com/college/pravara-rural-education-society-s-pravara-rural-college-of-pharmacy-ahmednagar-88823",
+  "https://www.shiksha.com/college/sagar-hospital-bangalore-105953",
+  "https://www.shiksha.com/college/mgm-new-bombay-hospital-navi-mumbai-106121",
 ]
 
 
@@ -9231,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 4481
+    c_count = 2761
 
     try:
         for base_url in BASE_URL:
